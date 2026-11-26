@@ -1,0 +1,874 @@
+# Products shown on the shelves. Edit this file to change the shop.
+#
+#   category: the shelf the item appears on (a new name creates a new shelf)
+#   name:     must be unique
+#   brand:    optional, shown under the name when it is not already in the name
+#   unit:     optional, for example "1 kg", "500 ml", "1 pack"
+#   quantity: how many are in stock. Customers cannot order more than this,
+#             and "Only N left" shows when 10 or fewer remain. 0 = sold out.
+#   price:    a number in rupees (for example 45), or null to show "ask us"
+#   emoji:    one emoji shown on the shelf (optional, default 🛒)
+
+- category: "Cereals & Breakfast"
+  name: "Kellogg's Corn Flakes"
+  brand: "Kellogg's"
+  quantity: 100
+  price: null
+  emoji: "🥣"
+- category: "Cereals & Breakfast"
+  name: "Muesli"
+  brand: "Kellogg's"
+  quantity: 100
+  price: null
+  emoji: "🥣"
+- category: "Cereals & Breakfast"
+  name: "Oats"
+  quantity: 100
+  price: null
+  emoji: "🥣"
+- category: "Cereals & Breakfast"
+  name: "Dalia / broken wheat"
+  quantity: 100
+  price: null
+  emoji: "🌾"
+- category: "Cereals & Breakfast"
+  name: "Poha / flattened rice"
+  quantity: 100
+  price: null
+  emoji: "🍚"
+- category: "Cereals & Breakfast"
+  name: "Rice"
+  quantity: 100
+  price: null
+  emoji: "🍚"
+- category: "Cereals & Breakfast"
+  name: "Daawat rice"
+  brand: "Daawat"
+  quantity: 100
+  price: null
+  emoji: "🍚"
+- category: "Cereals & Breakfast"
+  name: "Instant breakfast cereals"
+  quantity: 100
+  price: null
+  emoji: "🥣"
+- category: "Snacks & Savouries"
+  name: "Chocos"
+  quantity: 100
+  price: null
+  emoji: "🥣"
+- category: "Snacks & Savouries"
+  name: "Potato chips"
+  quantity: 100
+  price: null
+  emoji: "🍟"
+- category: "Snacks & Savouries"
+  name: "Namkeen / mixture"
+  quantity: 100
+  price: null
+  emoji: "🥨"
+- category: "Snacks & Savouries"
+  name: "Bhujia"
+  quantity: 100
+  price: null
+  emoji: "🥨"
+- category: "Snacks & Savouries"
+  name: "Chanachur"
+  quantity: 100
+  price: null
+  emoji: "🥨"
+- category: "Snacks & Savouries"
+  name: "Puffed snacks"
+  quantity: 100
+  price: null
+  emoji: "🍿"
+- category: "Snacks & Savouries"
+  name: "Popcorn / puffed corn snacks"
+  quantity: 100
+  price: null
+  emoji: "🍿"
+- category: "Snacks & Savouries"
+  name: "Papad"
+  quantity: 100
+  price: null
+  emoji: "🫓"
+- category: "Snacks & Savouries"
+  name: "Makhana"
+  brand: "Chappan Bhog"
+  quantity: 100
+  price: null
+  emoji: "🥜"
+- category: "Snacks & Savouries"
+  name: "Roasted peanuts"
+  quantity: 100
+  price: null
+  emoji: "🥜"
+- category: "Snacks & Savouries"
+  name: "Packaged savoury snacks"
+  quantity: 100
+  price: null
+  emoji: "🥨"
+- category: "Biscuits & Bakery"
+  name: "Biscuits"
+  quantity: 100
+  price: null
+  emoji: "🍪"
+- category: "Biscuits & Bakery"
+  name: "Cream biscuits"
+  quantity: 100
+  price: null
+  emoji: "🍪"
+- category: "Biscuits & Bakery"
+  name: "Cookies"
+  quantity: 100
+  price: null
+  emoji: "🍪"
+- category: "Biscuits & Bakery"
+  name: "Crackers"
+  quantity: 100
+  price: null
+  emoji: "🍪"
+- category: "Biscuits & Bakery"
+  name: "Rusk / toast"
+  quantity: 100
+  price: null
+  emoji: "🍞"
+- category: "Biscuits & Bakery"
+  name: "Packaged cakes"
+  quantity: 100
+  price: null
+  emoji: "🍰"
+- category: "Biscuits & Bakery"
+  name: "Brownies"
+  brand: "Winkies"
+  quantity: 100
+  price: null
+  emoji: "🧁"
+- category: "Biscuits & Bakery"
+  name: "Winkies Love Bite"
+  brand: "Winkies"
+  quantity: 100
+  price: null
+  emoji: "🧁"
+- category: "Biscuits & Bakery"
+  name: "Winkies brownie"
+  brand: "Winkies"
+  quantity: 100
+  price: null
+  emoji: "🧁"
+- category: "Biscuits & Bakery"
+  name: "Modern Cream Bite"
+  brand: "Modern"
+  quantity: 100
+  price: null
+  emoji: "🍰"
+- category: "Biscuits & Bakery"
+  name: "Lotte Choco Pie"
+  brand: "Lotte"
+  quantity: 100
+  price: null
+  emoji: "🍰"
+- category: "Biscuits & Bakery"
+  name: "Packaged bakery snacks"
+  quantity: 100
+  price: null
+  emoji: "🍪"
+- category: "Chocolate & Confectionery"
+  name: "Chocolate bars"
+  quantity: 100
+  price: null
+  emoji: "🍫"
+- category: "Chocolate & Confectionery"
+  name: "Hershey's Exotic Dark"
+  brand: "Hershey's"
+  quantity: 100
+  price: null
+  emoji: "🍫"
+- category: "Chocolate & Confectionery"
+  name: "Hershey's Kisses"
+  brand: "Hershey's"
+  quantity: 100
+  price: null
+  emoji: "🍫"
+- category: "Chocolate & Confectionery"
+  name: "Hershey's assorted chocolates"
+  brand: "Hershey's"
+  quantity: 100
+  price: null
+  emoji: "🍫"
+- category: "Chocolate & Confectionery"
+  name: "Cadbury Dairy Milk Silk Mini Treats"
+  brand: "Cadbury"
+  quantity: 100
+  price: null
+  emoji: "🍫"
+- category: "Chocolate & Confectionery"
+  name: "Chocolate gift boxes"
+  quantity: 100
+  price: null
+  emoji: "🍫"
+- category: "Chocolate & Confectionery"
+  name: "Flavoured centre chocolates"
+  quantity: 100
+  price: null
+  emoji: "🍫"
+- category: "Dairy & Milk Products"
+  name: "Amul Taaza milk"
+  brand: "Amul"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Dairy & Milk Products"
+  name: "Amul Gold milk"
+  brand: "Amul"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Dairy & Milk Products"
+  name: "Anik milk products"
+  brand: "Anik"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Dairy & Milk Products"
+  name: "Anik ghee"
+  brand: "Anik"
+  quantity: 100
+  price: null
+  emoji: "🫙"
+- category: "Dairy & Milk Products"
+  name: "Ghee"
+  quantity: 100
+  price: null
+  emoji: "🫙"
+- category: "Dairy & Milk Products"
+  name: "Butter"
+  quantity: 100
+  price: null
+  emoji: "🧈"
+- category: "Dairy & Milk Products"
+  name: "Cheese"
+  quantity: 100
+  price: null
+  emoji: "🧀"
+- category: "Dairy & Milk Products"
+  name: "Amul Fresh Cream"
+  brand: "Amul"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Dairy & Milk Products"
+  name: "Coconut milk (Kara)"
+  brand: "Kara"
+  quantity: 100
+  price: null
+  emoji: "🥥"
+- category: "Dairy & Milk Products"
+  name: "Coconut milk (Del Monte)"
+  brand: "Del Monte"
+  quantity: 100
+  price: null
+  emoji: "🥥"
+- category: "Dairy & Milk Products"
+  name: "Milk powder"
+  brand: "Nestlé Everyday"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Dairy & Milk Products"
+  name: "Complan"
+  brand: "Complan"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Dairy & Milk Products"
+  name: "Complan Women Plus"
+  brand: "Complan"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Juices & Beverages"
+  name: "Real mixed fruit juice"
+  brand: "Real"
+  quantity: 100
+  price: null
+  emoji: "🧃"
+- category: "Juices & Beverages"
+  name: "Real orange juice"
+  brand: "Real"
+  quantity: 100
+  price: null
+  emoji: "🧃"
+- category: "Juices & Beverages"
+  name: "Real mango juice"
+  brand: "Real"
+  quantity: 100
+  price: null
+  emoji: "🧃"
+- category: "Juices & Beverages"
+  name: "Real pineapple juice"
+  brand: "Real"
+  quantity: 100
+  price: null
+  emoji: "🧃"
+- category: "Juices & Beverages"
+  name: "Real cranberry juice"
+  brand: "Real"
+  quantity: 100
+  price: null
+  emoji: "🧃"
+- category: "Juices & Beverages"
+  name: "Real mosambi juice"
+  brand: "Real"
+  quantity: 100
+  price: null
+  emoji: "🧃"
+- category: "Juices & Beverages"
+  name: "Tang"
+  brand: "Tang"
+  quantity: 100
+  price: null
+  emoji: "🧃"
+- category: "Juices & Beverages"
+  name: "Packaged drinking water"
+  quantity: 100
+  price: null
+  emoji: "💧"
+- category: "Tea & Coffee"
+  name: "Nescafé instant coffee"
+  brand: "Nescafé"
+  quantity: 100
+  price: null
+  emoji: "☕"
+- category: "Tea & Coffee"
+  name: "Coffee jars"
+  quantity: 100
+  price: null
+  emoji: "☕"
+- category: "Tea & Coffee"
+  name: "Darjeeling tea"
+  quantity: 100
+  price: null
+  emoji: "🍵"
+- category: "Tea & Coffee"
+  name: "Roasted Darjeeling tea"
+  brand: "Goodricke"
+  quantity: 100
+  price: null
+  emoji: "🍵"
+- category: "Tea & Coffee"
+  name: "Turbo Darjeeling tea"
+  brand: "Goodricke"
+  quantity: 100
+  price: null
+  emoji: "🍵"
+- category: "Tea & Coffee"
+  name: "Packaged tea"
+  quantity: 100
+  price: null
+  emoji: "🍵"
+- category: "Instant Foods & Mixes"
+  name: "Instant noodles"
+  quantity: 100
+  price: null
+  emoji: "🍜"
+- category: "Instant Foods & Mixes"
+  name: "Pasta"
+  quantity: 100
+  price: null
+  emoji: "🍝"
+- category: "Instant Foods & Mixes"
+  name: "Maggi Pazzta Mushroom Penne"
+  brand: "Maggi"
+  quantity: 100
+  price: null
+  emoji: "🍝"
+- category: "Instant Foods & Mixes"
+  name: "Pazzta / pasta variants"
+  brand: "Maggi"
+  quantity: 100
+  price: null
+  emoji: "🍝"
+- category: "Instant Foods & Mixes"
+  name: "Dhokla mix"
+  quantity: 100
+  price: null
+  emoji: "🍜"
+- category: "Instant Foods & Mixes"
+  name: "Sambhar premix"
+  brand: "Gemini"
+  quantity: 100
+  price: null
+  emoji: "🍜"
+- category: "Instant Foods & Mixes"
+  name: "Idli podi"
+  brand: "Gemini"
+  quantity: 100
+  price: null
+  emoji: "🍜"
+- category: "Instant Foods & Mixes"
+  name: "Chutney premix"
+  quantity: 100
+  price: null
+  emoji: "🍜"
+- category: "Instant Foods & Mixes"
+  name: "Ready-to-cook mixes"
+  quantity: 100
+  price: null
+  emoji: "🍜"
+- category: "Sauces & Condiments"
+  name: "Tomato ketchup"
+  brand: "Kissan"
+  quantity: 100
+  price: null
+  emoji: "🍅"
+- category: "Sauces & Condiments"
+  name: "Tomato puree"
+  brand: "Kissan"
+  quantity: 100
+  price: null
+  emoji: "🍅"
+- category: "Sauces & Condiments"
+  name: "Tomato paste"
+  quantity: 100
+  price: null
+  emoji: "🍅"
+- category: "Sauces & Condiments"
+  name: "Chilli sauce"
+  quantity: 100
+  price: null
+  emoji: "🌶️"
+- category: "Sauces & Condiments"
+  name: "Soy sauce"
+  quantity: 100
+  price: null
+  emoji: "🫙"
+- category: "Sauces & Condiments"
+  name: "Vinegar"
+  quantity: 100
+  price: null
+  emoji: "🫙"
+- category: "Sauces & Condiments"
+  name: "Green chutney / condiment"
+  quantity: 100
+  price: null
+  emoji: "🫙"
+- category: "Sauces & Condiments"
+  name: "Thai Kitchen products"
+  brand: "Thai Kitchen"
+  quantity: 100
+  price: null
+  emoji: "🫙"
+- category: "Sauces & Condiments"
+  name: "Pickles"
+  quantity: 100
+  price: null
+  emoji: "🫙"
+- category: "Spices & Cooking Ingredients"
+  name: "Turmeric powder"
+  quantity: 100
+  price: null
+  emoji: "🟡"
+- category: "Spices & Cooking Ingredients"
+  name: "Chilli powder"
+  quantity: 100
+  price: null
+  emoji: "🌶️"
+- category: "Spices & Cooking Ingredients"
+  name: "Cumin"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Spices & Cooking Ingredients"
+  name: "Coriander powder"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Spices & Cooking Ingredients"
+  name: "Garam masala"
+  quantity: 100
+  price: null
+  emoji: "🌶️"
+- category: "Spices & Cooking Ingredients"
+  name: "Mixed masala"
+  quantity: 100
+  price: null
+  emoji: "🌶️"
+- category: "Spices & Cooking Ingredients"
+  name: "Whole spices"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Spices & Cooking Ingredients"
+  name: "Hing / asafoetida"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Spices & Cooking Ingredients"
+  name: "Mustard seeds"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Spices & Cooking Ingredients"
+  name: "Sesame seeds"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Spices & Cooking Ingredients"
+  name: "Loose spices"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Spices & Cooking Ingredients"
+  name: "Spice jars / mixes"
+  quantity: 100
+  price: null
+  emoji: "🌿"
+- category: "Oil, Pulses & Staples"
+  name: "Fortune Sunlite sunflower oil"
+  brand: "Fortune"
+  quantity: 100
+  price: null
+  emoji: "🌻"
+- category: "Oil, Pulses & Staples"
+  name: "Fortune soybean oil"
+  brand: "Fortune"
+  quantity: 100
+  price: null
+  emoji: "🌾"
+- category: "Oil, Pulses & Staples"
+  name: "Fortune Kachi Ghani mustard oil"
+  brand: "Fortune"
+  quantity: 100
+  price: null
+  emoji: "🌾"
+- category: "Oil, Pulses & Staples"
+  name: "Cooking oil"
+  quantity: 100
+  price: null
+  emoji: "🌾"
+- category: "Oil, Pulses & Staples"
+  name: "Salt"
+  quantity: 100
+  price: null
+  emoji: "🧂"
+- category: "Oil, Pulses & Staples"
+  name: "Sugar"
+  quantity: 100
+  price: null
+  emoji: "🍬"
+- category: "Oil, Pulses & Staples"
+  name: "Pulses / lentils"
+  quantity: 100
+  price: null
+  emoji: "🫘"
+- category: "Oil, Pulses & Staples"
+  name: "Chickpeas / gram"
+  quantity: 100
+  price: null
+  emoji: "🫘"
+- category: "Oil, Pulses & Staples"
+  name: "Beans / legumes"
+  quantity: 100
+  price: null
+  emoji: "🫘"
+- category: "Oil, Pulses & Staples"
+  name: "Dry grains and staples"
+  quantity: 100
+  price: null
+  emoji: "🌾"
+- category: "Dry Fruits & Nuts"
+  name: "Almonds"
+  quantity: 100
+  price: null
+  emoji: "🥜"
+- category: "Dry Fruits & Nuts"
+  name: "Cashews"
+  quantity: 100
+  price: null
+  emoji: "🥜"
+- category: "Dry Fruits & Nuts"
+  name: "Raisins"
+  quantity: 100
+  price: null
+  emoji: "🍇"
+- category: "Dry Fruits & Nuts"
+  name: "Mixed dry fruits"
+  quantity: 100
+  price: null
+  emoji: "🥜"
+- category: "Dry Fruits & Nuts"
+  name: "Seeds and nuts"
+  quantity: 100
+  price: null
+  emoji: "🥜"
+- category: "Canned & Preserved"
+  name: "Baked beans"
+  quantity: 100
+  price: null
+  emoji: "🫘"
+- category: "Canned & Preserved"
+  name: "Canned tomatoes"
+  quantity: 100
+  price: null
+  emoji: "🍅"
+- category: "Canned & Preserved"
+  name: "Canned vegetables"
+  quantity: 100
+  price: null
+  emoji: "🥫"
+- category: "Canned & Preserved"
+  name: "Other canned food"
+  quantity: 100
+  price: null
+  emoji: "🥫"
+- category: "Sweeteners & Health Foods"
+  name: "Sugar Free Gold+"
+  brand: "Sugar Free"
+  quantity: 100
+  price: null
+  emoji: "🍬"
+- category: "Sweeteners & Health Foods"
+  name: "Sugar Free Green"
+  brand: "Sugar Free"
+  quantity: 100
+  price: null
+  emoji: "🍬"
+- category: "Sweeteners & Health Foods"
+  name: "Artificial sweeteners"
+  quantity: 100
+  price: null
+  emoji: "🍬"
+- category: "Health & Digestive"
+  name: "ENO fruit salt"
+  brand: "ENO"
+  quantity: 100
+  price: null
+  emoji: "🧂"
+- category: "Health & Digestive"
+  name: "Antacid / digestive products"
+  quantity: 100
+  price: null
+  emoji: "💊"
+- category: "Personal Care"
+  name: "Dove shampoo"
+  brand: "Dove"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Dove conditioner"
+  brand: "Dove"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Dove body wash / body products"
+  brand: "Dove"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Clinic Plus shampoo"
+  brand: "Clinic Plus"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Sunsilk shampoo"
+  brand: "Sunsilk"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "L'Oréal shampoo"
+  brand: "L'Oréal"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Pantene shampoo"
+  brand: "Pantene"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Hair oil"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Face cream"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Personal Care"
+  name: "Moisturiser / Nivea Soft"
+  brand: "Nivea"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Hand cream"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Personal Care"
+  name: "Sunscreen"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Soap"
+  quantity: 100
+  price: null
+  emoji: "🧼"
+- category: "Personal Care"
+  name: "Toothpaste"
+  quantity: 100
+  price: null
+  emoji: "🪥"
+- category: "Personal Care"
+  name: "Toothbrush"
+  quantity: 100
+  price: null
+  emoji: "🪥"
+- category: "Personal Care"
+  name: "Nivea skincare products"
+  brand: "Nivea"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Nivea deodorant"
+  brand: "Nivea"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Body sprays"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Axe deodorant"
+  brand: "Axe"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Engage deodorant"
+  brand: "Engage"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Fogg deodorant"
+  brand: "Fogg"
+  quantity: 100
+  price: null
+  emoji: "🧴"
+- category: "Personal Care"
+  name: "Gillette shaving brush"
+  brand: "Gillette"
+  quantity: 100
+  price: null
+  emoji: "🪒"
+- category: "Personal Care"
+  name: "Gillette razors / shaving products"
+  brand: "Gillette"
+  quantity: 100
+  price: null
+  emoji: "🪒"
+- category: "Personal Care"
+  name: "Shaving cream"
+  quantity: 100
+  price: null
+  emoji: "🥛"
+- category: "Personal Care"
+  name: "Hair colour"
+  brand: "Garnier / L'Oréal / Godrej"
+  quantity: 100
+  price: null
+  emoji: "🎨"
+- category: "Personal Care"
+  name: "Garnier Color Naturals"
+  brand: "Garnier"
+  quantity: 100
+  price: null
+  emoji: "🎨"
+- category: "Personal Care"
+  name: "L'Oréal Excellence hair colour"
+  brand: "L'Oréal"
+  quantity: 100
+  price: null
+  emoji: "🎨"
+- category: "Personal Care"
+  name: "Godrej Rich Creme hair colour"
+  brand: "Godrej"
+  quantity: 100
+  price: null
+  emoji: "🎨"
+- category: "Personal Care"
+  name: "Hair colouring kits"
+  quantity: 100
+  price: null
+  emoji: "🎨"
+- category: "Hygiene & Baby Care"
+  name: "Sanitary napkins"
+  quantity: 100
+  price: null
+  emoji: "🌸"
+- category: "Hygiene & Baby Care"
+  name: "Feminine hygiene products"
+  quantity: 100
+  price: null
+  emoji: "🌸"
+- category: "Hygiene & Baby Care"
+  name: "Pampers diapers"
+  brand: "Pampers"
+  quantity: 100
+  price: null
+  emoji: "👶"
+- category: "Hygiene & Baby Care"
+  name: "Baby-care products"
+  quantity: 100
+  price: null
+  emoji: "🍼"
+- category: "Household"
+  name: "HIT insecticide"
+  brand: "HIT"
+  quantity: 100
+  price: null
+  emoji: "🦟"
+- category: "Household"
+  name: "Good Knight mosquito repellent"
+  brand: "Good Knight"
+  quantity: 100
+  price: null
+  emoji: "🦟"
+- category: "Household"
+  name: "Candles"
+  quantity: 100
+  price: null
+  emoji: "🕯️"
+- category: "Household"
+  name: "Matchboxes"
+  quantity: 100
+  price: null
+  emoji: "🔥"
+- category: "Household"
+  name: "Plastic containers"
+  quantity: 100
+  price: null
+  emoji: "🪣"
+- category: "Household"
+  name: "Storage containers"
+  quantity: 100
+  price: null
+  emoji: "🪣"
+- category: "Household"
+  name: "Plastic bottles"
+  quantity: 100
+  price: null
+  emoji: "🪣"
